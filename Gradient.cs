@@ -78,7 +78,9 @@ namespace ConsoleApp2
                 b += change_b;
             }
             System.IO.File.WriteAllText(@"C:\Users\V1\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\testing.txt", grad_text);
-            Console.WriteLine(grad_text);
+
+
+            Console.WriteLine("The Text successfully saved to file!");
 
 
         }
